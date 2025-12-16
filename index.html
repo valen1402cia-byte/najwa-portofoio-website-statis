@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <title>Portofolio | Najwa</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <h2 class="logo">MyPortfolio</h2>
+        <ul class="nav-menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">Tentang</a></li>
+            <li><a href="#skills">Keahlian</a></li>
+            <li><a href="#projects">Project</a></li>
+            <li><a href="#contact">Kontak</a></li>
+        </ul>
+    </nav>
+
+    <!-- HERO -->
+    <header class="hero">
+        <div class="hero-content">
+            <img src="img/profile.jpg" class="profile" alt="Foto Mahasiswa" />
+            <h1>Najwa Tri Mulyani</h1>
+            <p class="role">Mahasiswa Teknik Informatika</p>
+            <button class="btn" onclick="scrollToHeroandAbout()">
+                Lihat Selengkapnya
+            </button>
+        </div>
+    </header>
+
+    <!-- HOME -->
+    <section id="home" class="section">
+      <h1 class="title">Halo, Saya <span>Najwa</span></h1>
+      <p class="text">Web Developer | Data Analyst</p>
+      <button onclick="showAlert()">Hubungi Saya</button>
+  </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+        <h2 class="title">Tentang Saya</h2>
+        <p class="text">
+            Saya adalah mahasiswa Universitas Pamulang dengan minat di bidang
+            pengembangan web, desain UI/UX, dan analisis data. Berpengalaman membuat
+            website pribadi, project kampus, hingga aplikasi berbasis JavaScript.
+        </p>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section bg-light">
+        <h2 class="title">Keahlian</h2>
+        <div class="skills-grid">
+            <div class="skill-card">HTML</div>
+            <div class="skill-card">CSS</div>
+            <div class="skill-card">JavaScript</div>
+            <div class="skill-card">PHP</div>
+            <div class="skill-card">MySQL</div>
+            <div class="skill-card">Python</div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+        <h2 class="title">My Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <h3>Website Portfolio</h3>
+                <p>Website sederhana menggunakan HTML, CSS, dan JavaScript.</p>
+            </div>
+
+            <div class="project-card">
+                <h3>Aplikasi Booking Terapi</h3>
+                <p>Website booking layanan terapi menggunakan Flask & SQL Server.</p>
+            </div>
+
+            <div class="project-card">
+                <h3>Perpustakaan Digital</h3>
+                <p>Aplikasi perpustakaan berbasis web dengan PHP & MySQL.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section bg-light">
+        <h2 class="title">Kontak</h2>
+        <p class="text">Email: najwatri325@gmail.com</p>
+        <p class="text">Instagram: @najwathree</p>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        © 2025 My Porto by Najwa
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
